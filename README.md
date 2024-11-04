@@ -2,7 +2,7 @@
 
 ATM System Project - README.md Template
 markdown
-Copy code
+
 # ATM System
 
 An interactive console-based ATM System that simulates basic banking operations, including balance inquiry, cash withdrawal, fund transfer, mobile recharge, and bill payment. It utilizes object-oriented programming principles and Java.
@@ -46,33 +46,30 @@ The ATM System includes the following main functionalities:
 Navigate to Project Directory
 
 bash
-Copy code
 cd ATMSystem
 Compile the Project Make sure you have Java installed on your system. You can compile the project by running:
 
 bash
-Copy code
 javac -d bin src/com/pankaj/ATM/*.java
 Run the Application To start the application, use the following command:
 
 bash
-Copy code
 java -cp bin com.pankaj.ATM.Main
 Usage
-Upon starting the application, you will be prompted to enter a PIN. The default PIN is 1234. After successful authentication, the main menu will be displayed, showing the following options:
+Upon starting the application, you will be prompted to enter a PIN. The default **PIN** is 1234. After successful authentication, the main menu will be displayed, showing the following options:
 
-Cash Withdrawal: Follow prompts to withdraw an amount from your balance.
-Cash Deposit: Follow prompts to deposit an amount.
-Balance Inquiry: Displays the current account balance.
-Fund Transfer: Enter the recipient's account number and amount to transfer.
-Bill Payment: Enter the amount to pay a bill from your balance.
-Mobile Recharge: Enter your mobile number, select operator, and recharge amount.
-Mini Statement: Displays recent transactions.
-Cheque Deposit: Allows depositing a specified cheque amount.
-Exit: Ends the session.
-Note: Ensure that you have a positive balance to complete any withdrawal, transfer, recharge, or bill payment transactions.
+**Cash Withdrawal**: Follow prompts to withdraw an amount from your balance.
+**Cash Deposit**: Follow prompts to deposit an amount.
+**Balance Inquiry**: Displays the current account balance.
+**Fund Transfer**: Enter the recipient's account number and amount to transfer.
+**Bill Payment**: Enter the amount to pay a bill from your balance.
+**Mobile Recharge**: Enter your mobile number, select operator, and recharge amount.
+**Mini Statement**: Displays recent transactions.
+**Cheque Deposit**: Allows depositing a specified cheque amount.
+**Exit**: Ends the session.
+**Note**: Ensure that you have a positive balance to complete any withdrawal, transfer, recharge, or bill payment transactions.
 
-Class Structure
+**Class Structure**
 The project uses several classes for modularity:
 
 Main Class (Main.java):
@@ -99,10 +96,8 @@ SecurityService Class (SecurityService.java):
 Provides basic PIN-based authentication to simulate security.
 Currently uses a static PIN (1234), but this could be expanded for more complex security checks.
 Code Example
-Here's a basic example of how a user interaction might look:
+Here's a basic example of how a **user interaction might look**:
 
-plaintext
-Copy code
 Welcome to the ATM!
 Enter your PIN: ****
 
@@ -139,13 +134,12 @@ GUI: Replace the console interface with a graphical user interface for better us
 Contact
 For questions or suggestions, please reach out to:
 
-Name: Pankaj
+Name: Pankaj Kumar
 GitHub: [pankajBengaluru](https://github.com/PankajBengaluru)
-Email: your.email@example.com
+Email: pksnmit@gmail.com
 Disclaimer: This project is a simulation of an ATM system for educational purposes. Do not use it for any real-world banking applications.
 
 vbnet
-Copy code
 
 ---
 
